@@ -1,0 +1,31 @@
+body {
+  background: #3d424e;
+  position: relative;
+  height: 100%;
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  
+  min-width:800px;
+  width: auto !important;
+  width:800px;
+  min-height:400px;
+}
+
+html, body {
+  overflow: hidden;
+  height: 100%;
+}
+
+body::after{
+  content: '';
+  display: block;
+  height: 50px;
+}
+
+
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
